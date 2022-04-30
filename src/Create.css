@@ -1,0 +1,52 @@
+.upimg{
+    margin-top: 90px;
+    border-radius:30% 70% 70% 30% / 30% 38% 62% 70%;
+    background-color: #fabea7; 
+    padding: 15px;
+    display:flex;
+    height: max-content;
+    
+}
+.up_con{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    height: 100%;
+    justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.up_con h5{
+margin-top: 105px;
+font-family: 'Comic Sans MS', Courier New, Courier, monospace;
+font-size: 30px;
+height: 100%;
+justify-content: center;
+justify-items: center;
+display: flex;
+}
+.form-group{
+    font-size: 17px;
+    font-weight: 500;
+}
+.form-group input{
+    width: 400px;
+    padding: 2px;
+}
+
+.Ds{
+    height: 70px;
+    width: 400px;
+}
+@media(max-width: 665px){
+    .upimg{
+        display: none;
+    }
+}

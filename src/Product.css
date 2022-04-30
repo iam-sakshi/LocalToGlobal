@@ -1,0 +1,105 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+.products-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
+
+.products-container .product-card {
+  margin-top: 100px;
+  width: 300px;
+  margin-left: 20px;
+  height: 550px;
+  padding: 30px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+}
+
+.products-container .product-card .product-img {
+  width: 100%;
+  height: 200px;
+}
+
+.products-container .product-card .product-img img {
+  width: 100%;
+  height: 100%;
+}
+.products-container .product-card .product-rating{
+  display: flex;
+  font-size: 14px;
+}
+.products-container .product-card .product-name {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  color: #f57224;
+  margin-top: 5px;
+}
+
+.products-container .product-card .product-price {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.product .cart{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin: 5px;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product .cart{
+    
+    align-items: center;
+    justify-content: center;
+    background: #fdbb2d;
+    border-radius: 10px;
+    color: black;
+    font-size: 13px;
+    padding: 5px;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+.product .cart i{
+    position: absolute;
+    margin-left: 90px;
+    column-fill: transparent;
+    transition: 400ms;
+    color: transparent;
+}
+.product .cart span{
+    transition: 400ms;
+}
+.product .cart:hover span{
+    margin-right: 30px;
+}
+.product .cart:hover i{
+    margin-left: 45px;
+    column-fill: white;
+    color: black;
+}
+.product > button:focus{
+    outline: none;
+}
+.tg{
+  margin-left: 450px;
+}
+.btg{
+  padding-top: 70px;
+  background-image: url("ca.png");
+  width: 100%;
+}

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inn{
+    margin-top: 450px;
+    margin-bottom: 5px;
+    height: 75%;
+    width: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 68px -6px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+}
+
+.lgimg{
+    margin-top: 2%;
+    width: 50%;
+    height: 70%;
+    padding: 0px 50px;
+}
+.lgimg img{
+    width: 100%;
+    height: 100%;
+}
+.user-form{
+    background: #6C63FF;
+    padding: 50px;
+    width: 80%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+.user-form h3{
+    color: #fff;
+    padding: 30px 0;
+    font-weight: 700;
+}
+.user-form i{
+    position: absolute;
+    color:salmon;
+    margin: 25px 10px;
+}
+.inn input{
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    height: 3em;
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 0 30px;
+}
+
+.lgbtn{
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+}
+.btn{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    background: transparent;
+    border-radius: 20px;
+    width: 200px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.primary{
+    border: none;
+    background-color: salmon;
+    width: 200px;
+}
+
+
+@media(max-width: 665px){
+    .lgimg{
+        display: none;
+    }
+    .user-form{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .btn{
+        width:120px;
+        font-size:15px;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 665px){
+    .lgbtn{
+        margin: 5%;
+        display: block;
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+        margin: 2%;
+        padding: 3%;
+    }
+}

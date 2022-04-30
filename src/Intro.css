@@ -1,0 +1,52 @@
+.bd {
+    width: 100%;
+    height: 100%;
+    margin: 10px ;
+  }
+  .parallax {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display : flex;
+    align-items : center;
+  }
+  
+  .img1 {
+    background-image: url('https://pubmiddleware.mims.com/resource/image/13BF445C-B986-40C3-B291-AB9200C318BF/OriginalThumbnail/THUMBNAIL_shutterstock_1673426044.jpg');
+    height: 100%;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .img2 {
+    background-image: url('https://image.freepik.com/free-vector/woman-cartoon-with-shop-local-placard-store-design-retail-buy-market-theme_25030-50563.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .par {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+
+    text-align: center;
+    padding:20%;
+    vertical-align: middle;
+  }
+  
+  .par p{
+    background-color: black;
+    opacity: 0.8;
+    color:white;
+    width: 100%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .par button{
+    background-color: #fabea7;
+    color:black;
+  }

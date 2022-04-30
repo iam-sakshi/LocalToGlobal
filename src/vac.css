@@ -1,0 +1,45 @@
+summary{
+    font-size: 20px;
+}
+details summary{
+    padding: 10px;
+    cursor: pointer;
+}
+details :nth-of-type(even) { 
+	background: #eee; 
+	}
+    .rght{
+        padding-top: 90px;
+        padding-left: 700px;
+    }
+    .vc{
+        border-radius: 76% 24% 33% 67% / 51% 17% 83% 49% ;
+        background-color: #fabea7; 
+        padding-top: 20px;
+        margin-left: 80px;
+        margin-top: 40px;
+        position: absolute;
+    }
+.rght{
+    padding-left:40%;
+}
+.ltt{
+    padding-top: 60px;
+    position: absolute;
+}
+.vac{
+    display: block;
+    margin-left: 25%;
+}
+@media(max-width: 1200px){
+    .vc {
+        display: none;
+    }
+    .rght{
+        padding-left: 0%;
+    }
+    .vac{
+        margin-left: 0%;
+    }
+
+}
